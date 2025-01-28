@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chúc mừng năm mới</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+
+    <canvas id="cas"></canvas>
+    <div id="Merry" class="christmas-message">Chúc mừng năm mới</div>
+    <img class="tree-icon">
+    <audio id="audio" src="./tetden.mp3"></audio>
+    <div class="container">
+        <button id="showButton">
+            TẶNG NGÂN❤️
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">Thoát</button>
+        <h4 class="color2 margin">🧧Chúc mừng năm mới🧧</h3>
+            <div class="card">
+
+                <div class="imgBox">
+                    <div class="bark"></div>
+                    <img src="image/anhtet.png" alt="line slow">
+                </div>
+                <div class="details">
+                    <h4 class="color1">
+                        </h2>
+                        <h4 class="color2 margin">🧧 Chúc Mừng Năm Mới 🧧</h4>
+                        <h4 class="color2 margin">🐍 ẤT TỊ 2025 🐍</h4>
+                        <p><br></p>
+                        <p style="line-height: 1;">🎉 Chúc em một năm mới an khang</p>
+                        <p style="line-height: 1;">🍀 Vạn sự như ý và sức khỏe dồi dào</p>
+                        <p style="line-height: 1;">😊 Sau ba tháng làm quen anh cảm thấy vui khi làm quen em</p>
+                        <p style="line-height: 1;">💭 Mong rằng năm nay, chúng ta sẽ cho nhau cơ hội để được tìm hiểu rõ
+                            hơn về nhau</p>
+                        <p style="line-height: 1;">🎢 Chia sẻ nhiều khoảnh khắc vui vẻ và muốn cùng em đi các khu vui
+                            chơi</p>
+                        <p><br></p>
+                        <p class="text-right" style="line-height: 0.5;">🤞 Mong được gặp em ❤️</p>
+                        <p class="text-right" style="line-height: 0.5;">Gửi từ Anh - Người thích em 📬</p>
+
+
+
+                </div>
+            </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script>
+        document.body.addEventListener("click", function () {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+</body>
+
+</html>
